@@ -1,0 +1,20 @@
+{
+  "name": "com.garbomuffin.turbowarp",
+  "displayName": "TurbowarpMobile",
+  "version": "1.0.0",
+  "description": "Unofficial Turbowarp port for Android tablets",
+  "main": "index.js",
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "garbomuffin",
+  "license": "GNU GPLv3",
+  "devDependencies": {
+    "cordova-android": "^12.0.0"
+  },
+  "cordova": {
+    "platforms": [
+      "android"
+    ]
+  }
+}

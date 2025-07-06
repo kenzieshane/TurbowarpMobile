@@ -1,0 +1,8 @@
+{
+  "name": "@turbowarp/startaudiocontext",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "GarboMuffin",
+  "license": "MIT"
+}

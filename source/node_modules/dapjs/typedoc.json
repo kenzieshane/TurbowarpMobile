@@ -1,0 +1,13 @@
+{
+    "name": "DAPjs API Documentation",
+    "readme": "./README.md",
+    "theme": "./docs-theme",
+    "module": "commonjs",
+    "mode": "file",
+    "out": "docs",
+    "excludeExternals": true,
+    "excludeNotExported": true,
+    "excludeProtected": true,
+    "excludePrivate": true,
+    "hideGenerator": true
+}

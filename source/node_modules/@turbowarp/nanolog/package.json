@@ -1,0 +1,11 @@
+{
+  "name": "@turbowarp/nanolog",
+  "version": "0.2.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "author": "GarboMuffin",
+  "license": "MIT"
+}

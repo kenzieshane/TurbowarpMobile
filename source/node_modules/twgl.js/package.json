@@ -1,0 +1,68 @@
+{
+  "name": "twgl.js",
+  "version": "4.4.0",
+  "description": "A Tiny WebGL helper library",
+  "main": "dist/4.x/twgl-full.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha --recursive 'test/**/*-harness.js'",
+    "pre-push": "grunt eslint",
+    "build": "grunt build",
+    "bumpminor": "grunt bumpminor",
+    "bumpmajor": "grunt bumpmajor",
+    "bumppatch": "grunt bumppatch",
+    "builddocs": "grunt docs",
+    "browserify": "grunt browserify",
+    "serve": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/greggman/twgl.js.git"
+  },
+  "keywords": [
+    "WebGL",
+    "twgl"
+  ],
+  "author": "Greggman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/greggman/twgl.js/issues"
+  },
+  "homepage": "https://github.com/greggman/twgl.js",
+  "files": [
+    "dist/4.x/twgl-full.js",
+    "dist/4.x/twgl.js"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.36",
+    "@babel/plugin-transform-modules-commonjs": "^7.0.0-beta.36",
+    "@babel/polyfill": "^7.0.0-beta.36",
+    "@babel/preset-env": "^7.0.0-beta.36",
+    "@std/esm": "^0.18.0",
+    "almond": "^0.3.3",
+    "babel-loader": "^8.0.0-beta.0",
+    "eslint": "^4.14.0",
+    "eslint-plugin-google-camelcase": "0.0.1",
+    "eslint-plugin-html": "git+https://github.com/greggman/eslint-plugin-html.git#fix-space-eating",
+    "eslint-plugin-one-variable-per-var": "0.0.3",
+    "eslint-plugin-optional-comma-spacing": "0.0.4",
+    "eslint-plugin-require-trailing-comma": "0.0.1",
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^5.2.0",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-eslint": "^20.1.0",
+    "grunt-jsdoc": "^2.2.0",
+    "grunt-webpack": "^3.0.2",
+    "http-server": "^0.10.0",
+    "load-grunt-tasks": "^3.5.2",
+    "marked": "^0.3.6",
+    "minami": "^1.2.3",
+    "mocha": "^4.0.1",
+    "requirejs": "^2.3.5",
+    "semver": "^5.4.1",
+    "should": "^13.2.0",
+    "webpack": "^3.10.0",
+    "webpack-load-plugins": "^0.1.2"
+  },
+  "dependencies": {}
+}
