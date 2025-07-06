@@ -1,0 +1,12 @@
+[
+  {
+    "id": "tw.fps",
+    "description": "Label to indicate custom framerate",
+    "defaultMessage": "{framerate} FPS"
+  },
+  {
+    "id": "tw.interpolationEnabled",
+    "description": "Label to indicate interpolation is enabled",
+    "defaultMessage": "Interpolation"
+  }
+]
