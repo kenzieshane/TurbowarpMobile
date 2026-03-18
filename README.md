@@ -1,5 +1,9 @@
 ## Yet another experimental Turbowarp 'port' for Android (and iOS?) using cordova
 
+> [!NOTE]
+> # (POTENTIALLY COMING BACK SOON)
+> this thing is discontinued for now, but i might get back into it soon.
+
 Basically I pulled using git Turbowarp/scratch-gui and compiled it--then chuck it in cordova--then yeah, compiled it again to an apk. Cordova allows you to export to .aab and or .apk, and also allows for much flexible front-end editing if you want to contribute and actually make a suitable gui for phones, but for tablets i assume this is already fantastic. I know it is crappy for now but i might update it later!
 
 What works:
